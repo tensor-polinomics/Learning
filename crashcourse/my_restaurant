@@ -1,0 +1,11 @@
+from restaurant import Restaurant, IceCreamStand
+
+# Create an instance of Restaurant
+my_restaurant = Restaurant("The Gourmet Kitchen", "Italian")
+my_restaurant.describe_restaurant()
+my_restaurant.open_restaurant()
+
+# Create an instance of IceCreamStand
+my_ice_cream_stand = IceCreamStand("Sweet Treats", "Dessert", ["Chocolate", "Vanilla", "Strawberry"])
+my_ice_cream_stand.describe_restaurant()
+my_ice_cream_stand.display_flavors()
